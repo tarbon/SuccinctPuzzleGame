@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#game {
+    margin-top: 20px;
+}
+#logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 2px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.tile.empty {
+    background-color: transparent;
+    border: 2px dashed #999;
+}
+#controls {
+    margin-top: 20px;
+}
+#controls p {
+    font-size: 18px;
+}
+#controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.gem-icon {
+    width: 20px;
+    vertical-align: middle;
+}
+.logo-icon {
+    width: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
